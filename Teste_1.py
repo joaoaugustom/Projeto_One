@@ -10,4 +10,5 @@ impressao = cursor.fetchall()
 for a in impressao:
     print(f"Nome: {a[0]}\nTelefone: {a[1]}")
 cursor.close()
+
 conexao.close()
