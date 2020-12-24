@@ -1,4 +1,4 @@
-import sqlite3
+import sqlite3 #teste 
 
 conexao = sqlite3.connect("agenda.db")
 cursor = conexao.cursor()
